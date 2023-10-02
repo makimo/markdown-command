@@ -1,0 +1,2 @@
+[console_scripts]
+markdown-command = markdown_command:main

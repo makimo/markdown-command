@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: markdown-command
+Version: 0.9
+Summary: Process a Markdown file, execute commands within and print file contents with executed commands' output.
+Author-email: Michal Moroz <michal@makimo.pl>, Wojciech Mielczarek <wojciech.mielczarek@makimo.pl>
+Project-URL: Homepage, https://github.com/makimo/markdown-command
+Project-URL: Bug Tracker, https://github.com/makimo/markdown-command/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docopt==0.6.2
+
+```
+Process a Markdown file, execute commands within 
+and print file contents with executed commands' output.
+
+Usage:
+    markdown-command [options] FILE
+
+The pattern for commands to be executed is:
+    [$ command --with-options -and arguments]
+
+Options:
+    --help     Display this message.
+    --version  Display version information.
+```

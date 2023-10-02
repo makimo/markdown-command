@@ -1,6 +1,6 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "markdown_command"
@@ -17,13 +17,13 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+  'docopt == 0.6.2',
+]
 
 [project.urls]
 "Homepage" = "https://github.com/makimo/markdown-command"
 "Bug Tracker" = "https://github.com/makimo/markdown-command/issues"
-
-[project.dependencies]
-docopt == "0.6.2"
 
 [project.scripts]
 markdown-command = "markdown_command:main"
