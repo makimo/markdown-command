@@ -1,4 +1,4 @@
-# Markdown-command
+```
 Process a Markdown file, execute commands within 
 and print file contents with executed commands' output.
 
@@ -11,3 +11,4 @@ The pattern for commands to be executed is:
 Options:
     --help     Display this message.
     --version  Display version information.
+```

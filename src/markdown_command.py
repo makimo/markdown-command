@@ -13,7 +13,7 @@ Options:
     --version  Display version information.
 """
 
-VERSION = '1.0.1'
+VERSION = '0.9'
 
 
 import sys
