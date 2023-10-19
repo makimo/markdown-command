@@ -1,0 +1,3 @@
+# ignore ALL files from the dist directory
+dist/
+*.egg-info
